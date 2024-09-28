@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fruver Store</title>
+    <!-- Enlace a Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <div class="navbar">
+            <div class="logo">Fruver</div>
+            <nav>
+                <ul>
+                    <li><a href="#">Inicio</a></li>
+                    <li><a href="#">Tienda</a></li>
+                    <li><a href="#">Productos</a></li>
+                    <li class="dropdown">
+                        <a href="#">Páginas</a>
+                        <ul class="dropdown-content">
+                            <li><a href="#">Carrito</a></li>
+                            <li><a href="#">Checkout</a></li>
+                            <li><a href="#">Comentarios</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Contáctenos</a></li>
+                </ul>
+            </nav>
+            <div class="icons">
+                <i class="fas fa-search"></i>
+                <i class="fas fa-shopping-cart"></i>
+                <i class="fas fa-user"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Banner -->
+    <section class="banner">
+        <h1>100% Organic Foods</h1>
+        <h2>Organic Veggies & Fruits Foods</h2>
+        <form action="#">
+            <input type="text" placeholder="Search">
+            <button type="submit"> Submit Now</button>
+        </form>
+        <img src="imagenes/fruits-banner.png" alt="Frutas" style="width:32%; margin-top: -18%; margin-left: 44%;">
+    </section>
+
+    <!-- Features Section -->
+    <section class="features">
+        <div class="product-grid1">
+        <div class="feature">
+            <div class="icon-circle"><i class="fas fa-truck"></i></div>
+            <h3>Free Shipping</h3>
+            <p>Free on order over $300</p>
+        </div>
+        <div class="feature">
+            <div class="icon-circle"><i class="fas fa-lock"></i></div>
+            <h3>Security Payment</h3>
+            <p>100% security payment</p>
+        </div>
+        <div class="feature">
+            <div class="icon-circle"><i class="fas fa-redo"></i></div>
+            <h3>30 Day Return</h3>
+            <p>30 day money guarantee</p>
+        </div>
+        <div class="feature">
+            <div class="icon-circle"><i class="fas fa-headset"></i></div>
+            <h3>24/7 Support</h3>
+            <p>Support every time fast</p>
+        </div>
+        </div>
+    </section>
+
+    <!-- Products Section -->
+    <section class="products" style="background-color: white;">
+        <h2 style="font-size:164%;margin-right:54%; margin-top: 2%;">Productos Orgánicos</h2>
+        <div class="categories" style="margin-left: 39%; margin-top: -5%;">
+            <button>Todos los Productos</button>
+            <button>Vegetales</button>
+            <button>Frutas</button>
+            <button>Pan de cereales</button>
+        </div>
+        <div class="product-grid">
+            <div class="product">
+                <img src="imagenes/grapes.jpg" alt="Grapes">
+                <h3>Grapes</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$4.99 / kg</p>
+                <button><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="imagenes/raspberries.jpg" alt="Raspberries">
+                <h3>Raspberries</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$4.99 / kg</p>
+            <button><i class="fas fa-shopping-cart"></i>Add to cart</button>
+            </div>
+            <div class="product">
+                <img src="imagenes/apricots.jpg" alt="Apricots">
+                <h3>Apricots</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <p class="price">$4.99 / kg</p>
+                <button><i class="fas fa-shopping-cart"></i>Add to cart</button>
+        </div>
+        <div class="product">
+            <img src="imagenes/banana.jpg" alt="Banana">
+            <h3>Banana</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <p class="price">$4.99 / kg</p>
+            <button><i class="fas fa-shopping-cart"></i>Add to cart</button>
+    </div>
+    </section>
+</body>
+</html>
